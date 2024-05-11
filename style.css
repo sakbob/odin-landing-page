@@ -6,6 +6,7 @@ body {
 .header {
     background: #1F2937;
     display: flex;
+    flex-wrap: wrap;
     flex: 1 1 0;
     justify-content: space-between;
     padding: 10px 150px 0px 150px;
@@ -31,6 +32,7 @@ body {
 .s1 {
     background: #1F2937;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 100px 150px 100px 150px;
     gap: 50px;
@@ -84,6 +86,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 10px 150px 100px 150px;
+    gap: 30px;
 }
 
 .s2-header {
@@ -91,22 +94,28 @@ body {
     font-size: 36px;
     font-weight: 800;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .s2-main {
     display: flex;
-    justify-content: space-between;
-    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
 
 .s2-img-collection {
-    
+    align-content: stretch;
 }
 
 .s2-img-container {
-
+    height: 100px;
+    text-align: center;
+    background: #F9FAF8;
+    border: solid 3px #3882F6;
+    border-radius: 10px;
 }
 
 .s2-caption {
-
+    width: 100px;
 }
