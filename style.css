@@ -3,7 +3,7 @@ body {
 }
 
 /* Header */
-.header {
+header {
     background: #1F2937;
     display: flex;
     flex-wrap: wrap;
@@ -125,7 +125,11 @@ body {
 .s3 {
     background: #E5E7EB;
     padding: 100px 150px 100px 150px;
+}
+
+.s3-container {
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -138,9 +142,10 @@ body {
 }
 
 .s3-quotee {
-    text-align: end;
     font-size: 24px;
     font-weight: 800;
+    width: 100%;
+    text-align: end;
 }
 
 /* Section 4 */
@@ -183,4 +188,12 @@ body {
     color: #F9FAF8;
     padding: 5px 20px 5px 20px;
     font-weight: bold;
+}
+
+footer {
+    padding: 50px 150px 50px 150px;
+    background: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    font-size: large;
 }
