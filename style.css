@@ -110,15 +110,15 @@ body {
 }
 
 .s2-img-container {
-    height: 100px;
+    height: 150px;
     text-align: center;
     background: #F9FAF8;
-    border: solid 3px #3882F6;
+    border: solid 4px #3882F6;
     border-radius: 10px;
 }
 
 .s2-caption {
-    width: 100px;
+    width: 150px;
 }
 
 /* Section 3 */
@@ -141,4 +141,46 @@ body {
     text-align: end;
     font-size: 24px;
     font-weight: 800;
+}
+
+/* Section 4 */
+.s4 {
+    background: #F9FAF8;
+    display: flex;
+    padding: 100px 150px 100px 150px;
+    justify-content: center;
+}
+
+.s4-main {
+    background: #3882F6;
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    max-width: fit-content;
+    padding: 25px 125px 25px 125px;
+    border-radius: 10px;
+}
+
+.s4-left-header {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.s4-left-body {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.s4-right-signup {
+    background: #3882F6;
+    border-style: none;
+    border: solid 2px #F9FAF8;
+    border-radius: 5px;
+    color: #F9FAF8;
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
 }
